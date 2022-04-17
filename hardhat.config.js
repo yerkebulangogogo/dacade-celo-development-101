@@ -8,7 +8,7 @@ const DEPLOY_ADDRESS_PK = process.env.DEPLOY_ADDRESS_PK
  module.exports = {
   compilers: {
     solc: {
-      version: "0.6.6",    // Fetch exact version from solc-bin (default: truffle's version)
+      version: "0.8.7",    // Fetch exact version from solc-bin (default: truffle's version)
     }
   },
   networks: {
